@@ -34,7 +34,7 @@ void code(void){
 }
 
 void return_home(void){
-    printf("returning home ...");
+    printf("returning home ...\n");
 }
 
 int main(){
