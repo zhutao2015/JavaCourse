@@ -4,12 +4,13 @@ public class Person {
 	public String name;
 	public String gender;
 	public int age;
-	private Leg legs[] = {new Leg(), new Leg(5,50)};
+	private Leg legs[];
 	
-	public Person(String _name, String _gender, int _age){
+	public Person(String _name, String _gender, int _age, Leg[] ls){
 		name = _name;
 		gender = _gender;
 		age = _age;
+		legs = ls;
 	}
 	
 	public Person(int _age){
