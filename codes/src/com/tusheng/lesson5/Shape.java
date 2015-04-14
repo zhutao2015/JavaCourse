@@ -4,7 +4,10 @@ public class Shape {
 	public double calculateArea(){
 		return 0;
 	}
-	public double calculateVolume(){
-		return 0;
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Shape:";
 	}
 }
