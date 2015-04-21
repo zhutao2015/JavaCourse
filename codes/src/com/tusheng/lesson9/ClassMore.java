@@ -1,6 +1,6 @@
 package com.tusheng.lesson9;
 
-public class ClassMore {
+public class ClassMore{
 
 	public void printStuff2(String x){
 		System.out.println("From member method: " +x);
@@ -12,7 +12,6 @@ public class ClassMore {
 	
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
 		return "I am ClassMore";
 	}
 }

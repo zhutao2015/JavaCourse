@@ -11,7 +11,6 @@ public class Rectangle extends Shape{
 	
 	@Override
 	public double calculateArea() {
-		// TODO Auto-generated method stub
 		return length * width;
 	}
 	

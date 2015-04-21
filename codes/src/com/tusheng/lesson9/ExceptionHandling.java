@@ -5,13 +5,19 @@ import java.util.ArrayList;
 public class ExceptionHandling {
 	
 	public Integer getValue(ArrayList<Integer> x, int index){
-		try{
+		if (index>=0 && index < x.size()){
 			return x.get(index);
 		}
-		catch(Exception e){
-			System.out.println(e);
+		else{
 			return -1;
 		}
+//		try{
+//			return x.get(index);
+//		}
+//		catch(Exception e){
+//			System.out.println(e);
+//			return -1;
+//		}
 	}
 
 	public static void main(String[] args) {
