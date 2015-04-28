@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Index</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript">
+        $(function(){
+                $("#submit").click(function(){
+                    if ($("#name").val() == ""){
+                        alert("user name cannot be blank!");
+                        $("#username").focus();
+                    }
+                    else if ($("#password").val() == ""){
+                        alert("password cannot be blank!");
+                        $("#password").focus();
+                    }
+                 });
+         });
+        </script>
+    </head>
+
+    <body>
+        <h2>Sign Up</h2>
+
+
+        <form>
+          <div class="form-group">
+            <label for="username">User Name:</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+          </div>
+
+          <button type="button" id="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </body>
+</html>
