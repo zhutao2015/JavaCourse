@@ -22,7 +22,7 @@ public class Test3Reg {
 	
 
 	public static void main(String[] args) throws IOException {
-		Path pathname = Paths.get("/home/zhu/myself/JavaCourse/lesson10/y.txt");
+		Path pathname = Paths.get("D:\\java\\JavaCourse\\lesson10\\y.txt");
 		List<String> lines = Files.readAllLines(pathname, StandardCharsets.UTF_8);
 		String out = "";
 		for(String line : lines){
