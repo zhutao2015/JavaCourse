@@ -1,0 +1,53 @@
+<html>
+ <head>
+   <title>Test ABC</title>
+   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(function(){
+  $("#button").click(function(){
+    $("#mytable").addClass("table-bordered");
+    
+   });
+
+});
+
+</script>
+
+ </head>
+
+  <body>
+  <div class="row">
+   <div class="col-md-2"></div>
+   <div class="col-md-8">
+ 
+   <table class="table" id='mytable'>
+   <tr>
+     <td>名字</td>
+    <td>性别</td>
+    <td>年龄</td>    
+   </tr>
+  <tr>
+     <td>Jim</td>
+    <td>Male</td>
+    <td>22</td>    
+   </tr>
+  <tr>
+     <td>Kate</td>
+    <td>Female</td>
+    <td>30</td>    
+   </tr>
+
+   </table>
+
+    </div>
+
+<div class="col-md-2">
+
+<input type='button' id='button' value='change'/>
+</div>
+
+ </div>
+  </body>
+</html>
