@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello</title>
+
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$("#submit").click(function(){
+			var username = $("#username").val();
+			var email = $("#email").val();
+			if (username.trim() == ""){
+				alert("user name cannot be empty!");
+				$("#username").focus();
+				$("#username").val("");
+				return false;
+			}
+			else if (email.trim() == ""){
+				alert("email cannot be empty!");
+				$("#email").focus();
+				$("#email").val("");
+				return false;
+			}
+			return true;
+		});
+	});
+</script>
+
+</head>
+<body>
+
+<div class="row" style="margin-top:50px">
+	<div class="col-md-2">
+	</div>
+	
+	<div class="col-md-8">
+		<form action="" method="POST">
+			<div class="form-group">
+				<label for="username">user name:</label>
+				<input type="text" name="username" id='username' />
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="text" name="email" id='email' />
+			</div>
+			<div class="form-group">
+				<input class="btn btn-primary btn-lg" type="submit" id='submit' />
+			</div>
+			
+			
+		</form>
+	
+	</div>
+	
+	<div class="col-md-2">
+	</div>
+	
+
+</div>
+
+</body>
+</html>
