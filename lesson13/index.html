@@ -14,11 +14,11 @@
         <script type="text/javascript">
         $(function(){
                 $("#submit").click(function(){
-                    if ($("#username").val() == ""){
+                    if ($("#username").val().trim() == ""){
                         alert("user name cannot be blank!");
                         $("#username").focus();
                     }
-                    else if ($("#password").val() == ""){
+                    else if ($("#password").val().trim() == ""){
                         alert("password cannot be blank!");
                         $("#password").focus();
                     }
