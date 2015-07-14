@@ -14,6 +14,8 @@ public class Fib {
 	 */
 	
 	public int fib(int n) {
+        if (n <0)
+            return ;
 		if (n == 0){
 			return 0;
 		}
