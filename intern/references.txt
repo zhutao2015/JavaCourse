@@ -1,0 +1,1 @@
+Ascii vs. Binary Files: http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/asciiBin.html
