@@ -1,1 +1,2 @@
 Ascii vs. Binary Files: http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/asciiBin.html
+ ['刘南','张晨','脱咪','王青波','董倩','刘磊','李雷彪','候豆','周玉成','贺欢','李玲','徐蒙','吴富强','张欢']
